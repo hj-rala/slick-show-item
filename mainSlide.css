@@ -1,0 +1,810 @@
+/* main slide */
+
+/* layoutBox */
+.layoutBox {position:relative; width:1740px; margin:0 auto;}
+.layoutBox:after {content:""; display:block; clear:both;}
+
+
+#mainSlide {width:100%; height:960px;}
+#mainSlide:after {content:""; display:block; clear:both;} 
+#mainSlide > div {width:100%; height:100%;}
+#mainSlide > div > div {width:100%; height:100%;}
+#mainSlide > div > div > div {width:100%; height:100%;}
+#mainSlide > div > div > div > div {width:100%; height:100%;}
+#mainSlide img {display:inline-block;}
+#mainSlide .msSlide01 {position:relative; width:100%; height:100%; background:#d2e5f3;}
+#mainSlide .msSlide01 .layoutBox {height:100%; overflow:hidden;}
+#mainSlide .msSlide01:after {content:""; display:block; clear:both;} 
+#mainSlide .msSlide01 .textArea {position:absolute; left:5%; top:300px; z-index:10;}
+#mainSlide .msSlide01 .textArea .msTit {padding:0 0 25px 0;}
+#mainSlide .msSlide01 .textArea .msTit span {display:block; font-size:80px; color:#3650ab; line-height:1.2; letter-spacing:-3px; margin:0 0 0 -20px; opacity:0;}
+#mainSlide .msSlide01 .textArea .msTit strong {font-size:80px; color:#3650ab; letter-spacing:-3px;}
+#mainSlide .msSlide01 .textArea .msTit u {display:inline-block; font-size:98px; color:#3650ab; text-decoration:none;transform-origin:37px 60px;}
+#mainSlide .msSlide01 .textArea .msTxt {}
+#mainSlide .msSlide01 .textArea .msTxt:after {content:""; display:block; clear:both;} 
+#mainSlide .msSlide01 .textArea .msTxt p {display:block; font-size:34px; color:#2f363e; line-height:1.5; letter-spacing:-3px; opacity:0;}
+#mainSlide .msSlide01 .textArea .msTxt span {font-size:34px; color:#2f363e; line-height:1.5; letter-spacing:-3px;}
+#mainSlide .msSlide01 .bgTxt {position:absolute; right:8.7356%; top:100px; opacity:0; transform-origin:100% 50%; -webkit-transform:scale(0);transform:scale(0);}
+#mainSlide .msSlide01 .img01 {position:absolute; right:9.42527%; bottom:30px; opacity:0; transform-origin:100% 50%; -webkit-transform:scale(0);transform:scale(0);}
+
+
+#mainSlide .msSlide02 {position:relative; width:100%; height:100%; background:#d2e5f3;}
+#mainSlide .msSlide02:after {content:""; display:block; clear:both;} 
+#mainSlide .msSlide02 .layoutBox {height:100%;}
+#mainSlide .msSlide02 .textArea {position:absolute; left:5%; top:300px; z-index:10;}
+#mainSlide .msSlide02 .textArea .msTit {padding:0 0 25px 0;}
+#mainSlide .msSlide02 .textArea .msTit span {display:block; font-size:80px; color:#3650ab; line-height:1.2; letter-spacing:-3px; margin:0 0 0 -20px; opacity:0;}
+#mainSlide .msSlide02 .textArea .msTit strong {font-size:80px; color:#3650ab; letter-spacing:-3px;}
+#mainSlide .msSlide02 .textArea .msTit u {display:inline-block; font-size:98px; color:#3650ab; text-decoration:none; letter-spacing:-3px; transform-origin:37px 60px;}
+#mainSlide .msSlide02 .textArea .msTxt {}
+#mainSlide .msSlide02 .textArea .msTxt:after {content:""; display:block; clear:both;} 
+#mainSlide .msSlide02 .textArea .msTxt p {display:block; font-size:34px; color:#2f363e; line-height:1.5; letter-spacing:-3px; opacity:0;}
+#mainSlide .msSlide02 .textArea .msTxt span {font-size:34px; color:#2f363e; line-height:1.5; letter-spacing:-3px;}
+#mainSlide .msSlide02 .bgTxt {position:absolute; left:31.724%; top:310px; opacity:0; margin:0 0 0 100px;}
+#mainSlide .msSlide02 .img01 {position:absolute; left:31.4137%; bottom:0; opacity:0; margin:0 0 0 -100px;}
+#mainSlide .msSlide02 .img02 {position:absolute; right:20%; bottom:0; opacity:0;}
+
+#mainSlide .msSlide03 {position:relative; width:100%; height:100%; background:url('http://smartzzang.com/2020SS/images/bg/bg_ms_slide02.png') right bottom #d2e5f3 no-repeat;}
+#mainSlide .msSlide03:after {content:""; display:block; clear:both;} 
+#mainSlide .msSlide03 .layoutBox {height:100%;}
+#mainSlide .msSlide03 .textArea {position:absolute; left:5%; top:300px; z-index:10;}
+#mainSlide .msSlide03 .textArea .msTit {padding:0 0 25px 0;}
+#mainSlide .msSlide03 .textArea .msTit span {display:block; font-size:80px; color:#3650ab; line-height:1.2; letter-spacing:-3px; margin:0 0 0 -20px; opacity:0;}
+#mainSlide .msSlide03 .textArea .msTit strong {font-size:80px; color:#3650ab; letter-spacing:-3px;}
+#mainSlide .msSlide03 .textArea .msTit u {display:inline-block; font-size:98px; color:#3650ab; text-decoration:none; letter-spacing:-3px; transform-origin:37px 60px;}
+#mainSlide .msSlide03 .textArea .msTxt {}
+#mainSlide .msSlide03 .textArea .msTxt:after {content:""; display:block; clear:both;} 
+#mainSlide .msSlide03 .textArea .msTxt p {display:block; font-size:34px; color:#2f363e; line-height:1.5; letter-spacing:-3px; opacity:0;}
+#mainSlide .msSlide03 .textArea .msTxt span {font-size:34px; color:#2f363e; line-height:1.5; letter-spacing:-3px;}
+#mainSlide .msSlide03 .bgTxt {position:absolute; left:33.724%; top:310px; opacity:0; margin:0 0 0 100px;}
+#mainSlide .msSlide03 .img01 {position:absolute; left:34.77%; bottom:84px; opacity:0; margin:0 0 0 100px;}
+
+#mainSlide .msSlide04 {position:relative; width:100%; height:100%; background:#d2e5f3;}
+#mainSlide .msSlide04:after {content:""; display:block; clear:both;} 
+#mainSlide .msSlide04 .layoutBox {height:100%;}
+#mainSlide .msSlide04 .textArea {position:absolute; left:5%; top:226px; width:586px; z-index:10;}
+#mainSlide .msSlide04 .textArea .msTit {}
+#mainSlide .msSlide04 .textArea .msTit * {vertical-align:middle;}
+#mainSlide .msSlide04 .textArea .msTit span {display:block; opacity:0;}
+#mainSlide .msSlide04 .textArea .msTit span.txtImg {padding:60px 0 0 0; text-align:center;}
+#mainSlide .msSlide04 .bgTxt {position:absolute; left:35.632%; top:310px; opacity:0; margin:0 0 0 100px;}
+#mainSlide .msSlide04 .img01 {position:absolute; left:45.97%; bottom:65px;}
+#mainSlide .msSlide04 .img01 ul {font-size:0; line-height:0;}
+#mainSlide .msSlide04 .img01 ul li.one {opacity:0; transform-origin:190px bottom; -webkit-transform:scale(0);transform:scale(0);}
+#mainSlide .msSlide04 .img01 ul li.model {position:absolute; left:345px; bottom:23px; opacity:0; }
+
+#mainSlide .slick-dots {position:absolute; right:20px; top:50%; width:20px;}
+#mainSlide .slick-dots li {display:block; width:16px; height:16px; margin:20px 0; cursor:pointer; border:3px solid #5B656E; border-radius:50%; box-sizing:border-box;}
+#mainSlide .slick-dots li button {display:none;}
+#mainSlide .slick-dots li.slick-active {background:#3A444C; border-color:#3A444C;}
+
+
+
+
+
+/***************** media **************/
+@media all and (max-width:1780px){
+
+/* layoutBox */
+.layoutBox {width:auto; margin:0 20px;}
+
+}
+
+
+
+/***************** media **************/
+@media all and (max-width:1740px){
+
+/* main slide */
+#mainSlide .msSlide03 .img01 ul li img {margin:0 0 0 -20px;}
+
+}
+
+
+
+/***************** media **************/
+@media all and (max-width:1680px){
+
+/* main slide */
+#mainSlide .msSlide01 .bgTxt {right:4.7356%;}
+#mainSlide .msSlide01 .bgTxt img {width:750px;}
+#mainSlide .msSlide01 .img01 {right:5.42527%; bottom:76px;}
+#mainSlide .msSlide01 .img01 img {width:885px;}
+
+#mainSlide .msSlide03 .img01 {left:auto; right:0; margin:0 100px 0 0;}
+#mainSlide .msSlide03 .img01 img {margin:0 -80px 0 0;}
+
+/* sector01 */
+#sector01 .mainerImg img {display:inline-block; margin:0 -10% 0 0;}
+#sector01 .no1Txt img {display:inline-block; padding:0 0 0 10%;}
+#sector01 .goLink {margin:0 0 0 260px;}
+
+/* sector03 */
+#sector03 .smartLookTit {margin:0 0 0 30px;}
+
+}
+
+
+
+
+/***************** media **************/
+@media all and (max-width:1560px){
+
+/* sector02 */
+#sector02 #mainLookbook {width:1000px; }
+#sector02 #mainLookbook .slick-slide {width:294px !important;}
+#sector02 #mainLookbook .slick-slide .img {position:relative; width:100%;}
+#sector02 #mainLookbook .slick-slide .img img {width:220px;}
+
+#sector02 #mainLookbook02 {width:1000px; }
+#sector02 #mainLookbook02 .slick-slide {width:294px !important;}
+#sector02 #mainLookbook02 .slick-slide .img {position:relative; width:100%;}
+#sector02 #mainLookbook02 .slick-slide .img img {width:220px;}
+
+/* main slide */
+#mainSlide .msSlide03 .img01 img {width:1000px;}
+
+#mainSlide .msSlide04 .textArea {left:5%;}
+#mainSlide .msSlide04 .img01 {left:50%;}
+
+
+}
+
+
+/***************** media **************/
+@media all and (max-width:1440px){
+
+/* main slide */
+#mainSlide .msSlide03 .img01 ul li img {margin:0 0 0 -30px;}
+
+}
+
+
+
+
+/***************** media **************/
+@media all and (max-width:1400px){
+
+/* main slide */
+#mainSlide .msSlide01 .textArea {left:0;}
+#mainSlide .msSlide01 .bgTxt {right:2%;}
+#mainSlide .msSlide01 .img01 {right:4%;}
+
+#mainSlide .msSlide02 .textArea {left:0;}
+#mainSlide .msSlide02 .bgTxt {left:36%;}
+#mainSlide .msSlide02 .img01 {left:38%;}
+#mainSlide .msSlide02 .img02 {margin:0 -10% 0 0;}
+
+#mainSlide .msSlide03 .textArea {left:0;}
+#mainSlide .msSlide03 .bgTxt {left:36%;}
+#mainSlide .msSlide03 .img01 img {width:920px;}
+
+#mainSlide .msSlide04 .textArea {left:5%; top:310px; width:440px;}
+#mainSlide .msSlide04 .textArea .msTit span img {width:440px;}
+#mainSlide .msSlide04 .textArea .msTit span.txtImg img {width:252px;}
+#mainSlide .msSlide04 .bgTxt {left:28%;}
+#mainSlide .msSlide04 .img01 {left:48%;}
+
+/* sector01 */
+#sector01 .InfoArea {left:0;}
+#sector01 .mainerImg img {margin:0 -20% 0 0;}
+#sector01 .no1Txt img {padding:0 0 0 15%;}
+#sector01 .goLink {margin:0 0 0 200px;}
+
+/* sector03 */
+#sector03 .movie {margin:0;}
+#sector03 .smartLookTit {margin:0 0 0 60px;}
+#sector03 .smartStyle {margin:0 0 0 115px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/***************** media **************/
+@media all and (max-width:1300px){
+
+/* header */
+header #navi .hOutbox {width:auto; margin:0 20px;}
+header #navi .hInbox {margin:0 -3% 0 0;}
+header #navi .hInbox .menu {width:30.33%; margin:0 3% 3% 0;}
+header #navi .hInbox .depthTitle {padding:30px 0 25px 0;}
+
+/* sector02 */
+#sector02 .changeSlide {position:relative; left:0; right:auto; top:0; display:block; border-radius:50px; margin:0 auto 32px;}
+#sector02 .changeSlide:after {border-radius:50px;}
+
+
+}
+
+
+/***************** media **************/
+@media all and (max-width:1240px){
+
+/* sector04 */
+#sector04 .seList {width:auto; margin:0;}
+#sector04 .seList ul {margin:0 -2% 0 0;}
+#sector04 .seList ul li {width:31.33%; margin:0 2% 2% 0;}
+
+}
+
+
+
+
+/***************** media **************/
+@media all and (max-width:1200px){
+
+/* main slide */
+#mainSlide .msSlide01 .textArea .msTit span {font-size:70px;}
+#mainSlide .msSlide01 .textArea .msTit strong {font-size:70px;}
+#mainSlide .msSlide01 .textArea .msTxt p {font-size:28px;}
+#mainSlide .msSlide01 .textArea .msTit u {font-size:78px; transform-origin:24px 42px;}
+#mainSlide .msSlide01 .bgTxt {top:180px;}
+#mainSlide .msSlide01 .bgTxt img {width:640px;}
+#mainSlide .msSlide01 .img01 {bottom:100px;}
+#mainSlide .msSlide01 .img01 img {width:760px;}
+
+#mainSlide .msSlide02 .textArea .msTit span {font-size:70px;}
+#mainSlide .msSlide02 .textArea .msTit strong {font-size:70px;}
+#mainSlide .msSlide02 .textArea .msTxt p {font-size:28px;}
+#mainSlide .msSlide02 .textArea .msTit u {font-size:78px; transform-origin:24px 42px;}
+#mainSlide .msSlide02 .bgTxt img {width:700px;}
+#mainSlide .msSlide02 .img01 {left:32%;}
+#mainSlide .msSlide02 .img02 {margin:0 -21% 0 0;}
+
+#mainSlide .msSlide03 .textArea .msTit span {font-size:70px;}
+#mainSlide .msSlide03 .textArea .msTit strong {font-size:70px;}
+#mainSlide .msSlide03 .textArea .msTxt p {font-size:28px;}
+#mainSlide .msSlide03 .textArea .msTit u {font-size:78px; transform-origin:24px 42px;}
+#mainSlide .msSlide03 .bgTxt img {width:700px;}
+#mainSlide .msSlide03 .img01 {bottom:113px;}
+#mainSlide .msSlide03 .img01 img {width:800px; margin:0 -80px 0 0;}
+
+#mainSlide .msSlide04 .textArea {left:3%; top:274px; width:400px;}
+#mainSlide .msSlide04 .textArea .msTit span img {width:400px;}
+#mainSlide .msSlide04 .textArea .msTit span.txtImg {padding:40px 0 0 0;}
+#mainSlide .msSlide04 .textArea .msTit span.txtImg img {width:230px;}
+#mainSlide .msSlide04 .img01 {bottom:144px;}
+#mainSlide .msSlide04 .img01 ul li.one img {width:400px;}
+#mainSlide .msSlide04 .img01 ul li.model  {left:320px; bottom:21px;}
+#mainSlide .msSlide04 .img01 ul li.model img {width:220px;}
+
+
+
+
+/* sector01 */
+#sector01 .InfoArea .tArea span {font-size:50px;}
+#sector01 .InfoArea .tArea span strong {font-size:52px;}
+#sector01 .InfoArea .gArea ul {width:376px;}
+#sector01 .InfoArea .gArea ul li:nth-child(1) .num u {font-size:46px;}
+#sector01 .InfoArea .gArea ul li:nth-child(2) .gBar {width:156px;}
+#sector01 .InfoArea .gArea ul li:nth-child(3) .gBar {width:126px;}
+#sector01 .InfoArea .gArea ul li:nth-child(4) .gBar {width:102px;}
+
+#sector01 .goLink {text-align:left;}
+#sector01 .goLink span {line-height:1.4; padding:6px 0 6px 80px;}
+#sector01 .goLink span u {display:block;}
+
+/* sector02 */
+#sector02 .seTit {font-size:65px;}
+#sector02 .seTit strong {font-size:65px;}
+#sector02 .seTit u {font-size:84px;}
+#sector02 .seTxt {font-size:30px;}
+#sector02 .seTxt strong {font-size:30px;}
+
+/* sector03 */
+#sector03 .movie {width:560px;}
+#sector03 .smartLookTit {}
+#sector03 .smartLookTit span {font-size:78px;}
+#sector03 .smartLookTit span u {font-size:78px;}
+#sector03 .movie .smartTt {top:270px;}
+#sector03 .movie .movieSubject {margin:90px 0 0 150px;}
+#sector03 .smartStyle .img img {width:380px;}
+#sector03 .smartStyle .boyStyle {width:100px; height:100px; left:-53px; top:153px;}
+#sector03 .smartStyle .girlStyle {width:100px; height:100px; right:-34px; top:114px;}
+#sector03 .smartStyle .ico {padding:15px 0 0 0;}
+#sector03 .smartStyle .ico span {font-size:14px; padding:4px 0 0 0;}
+
+/* sector04 */
+#sector04 .seTit {font-size:65px;}
+#sector04 .seTit strong {font-size:65px;}
+#sector04 .seTit u {font-size:84px;}
+#sector04 .seList ul li .tit strong {font-size:40px;}
+#sector04 .seList ul li .tit span {font-size:40px;}
+#sector04 .seList ul li:nth-child(1) .tit {left:30px;}
+#sector04 .seList ul li:nth-child(1) .txt {left:30px;}
+#sector04 .seList ul li:nth-child(2) .img {right:15px;}
+#sector04 .seList ul li:nth-child(2) .tit {left:110px;}
+#sector04 .seList ul li:nth-child(2) .txt {left:40px;}
+#sector04 .seList ul li:nth-child(3) .img {right:0;}
+#sector04 .seList ul li:nth-child(3) .tit {left:40px;}
+#sector04 .seList ul li:nth-child(3) .tit strong {font-size:60px;}
+#sector04 .seList ul li:nth-child(3) .tit span {font-size:60px;}
+#sector04 .seList ul li:nth-child(3) .txt {left:40px;}
+#sector04 .seList ul li:nth-child(4) .tit {left:30px;}
+#sector04 .seList ul li:nth-child(4) .txt {left:30px;}
+#sector04 .seList ul li:nth-child(4) .img {right:12px;}
+#sector04 .seList ul li:nth-child(5) .tit {left:110px;}
+#sector04 .seList ul li:nth-child(5) .txt {left:40px;}
+#sector04 .seList ul li:nth-child(6) .img {right:15px;}
+#sector04 .seList ul li:nth-child(6) .tit {left:30px;}
+#sector04 .seList ul li:nth-child(6) .txt {left:30px;}
+#sector04 .seList ul li:nth-child(6) .sns {left:30px;}
+
+}
+
+
+
+
+/***************** media **************/
+@media all and (max-width:1140px){
+
+/* header */
+header #tophead .util ul li {margin:0 12px;}
+
+/* sector02 */
+#sector02 #mainLookbook {width:670px;}
+#sector02 #mainLookbook02 {width:670px;}
+
+}
+
+
+/***************** media **************/
+@media all and (max-width:1100px){
+
+/* main slide */
+#mainSlide .msSlide04 .img01 {bottom:205px;}
+#mainSlide .msSlide04 .img01 ul li.one img {width:360px;}
+#mainSlide .msSlide04 .img01 ul li.model  {left:278px; bottom:20px;}
+#mainSlide .msSlide04 .img01 ul li.model img {width:200px;}
+
+}
+
+
+
+/***************** media **************/
+@media all and (max-width:1000px){
+
+.utilFixBg {position:fixed; left:0; top:0; width:100%; height:100%; background:#000; opacity:0.8; overflow:hidden; z-index:10;}
+
+/* header */
+header #tophead .util .mUtil {display:block; position:relative; z-index:12;}
+header #tophead .util .mUtil a {display:block; font-family: 's-core_dream6_bold'; font-size:17px; color:#2f363e; line-height:42px; letter-spacing:-0.5px; padding:0 16px; background:url('../images/bg/bg_mutil_select.png') right 50% no-repeat;}
+header #tophead .util ul {display:none; position:absolute; right:0; top:0; width:172px; z-index:12;}
+header #tophead .util ul li {float:none; display:block; margin:0;}
+header #tophead .util ul li a {display:block; padding:0 16px; text-align:right; color:#fff; background:#3650ab;}
+body.hoverOk header #tophead .util ul li a:hover {background:#172864;}
+
+header.naviOn #tophead .util .mUtil a {color:#fff; background:url('../images/bg/bg_mutil_select_on.png') right 50% no-repeat;}
+header.naviOn #tophead .util ul li a {color:#fff;}
+header.naviOn #tophead .naviMenu {border-color:#fff; display:none;}
+header.naviOn #tophead .naviMenu span {color:#fff;}
+
+
+/* main slide */
+#mainSlide .msSlide01 .textArea {top:120px; left:50%; width:640px; margin:0 0 0 -320px;}
+#mainSlide .msSlide01 .textArea .msTit span {font-size:50px; display:inline-block; padding:0 10px;}
+#mainSlide .msSlide01 .textArea .msTit strong {font-size:50px;}
+#mainSlide .msSlide01 .textArea .msTxt p {font-size:24px; padding:0 0 0 10px;}
+#mainSlide .msSlide01 .textArea .msTit u {font-size:55px; transform-origin:17px 30px;}
+#mainSlide .msSlide01 .bgTxt {left:0; right:auto; top:324px; width:100%; text-align:center;}
+#mainSlide .msSlide01 .bgTxt img {width:500px;}
+#mainSlide .msSlide01 .img01 {left:0; right:auto; bottom:80px; width:100%; text-align:center;}
+#mainSlide .msSlide01 .img01 img {width:650px; margin:0 0 0 -140px;}
+
+#mainSlide .msSlide02 .textArea {top:120px; left:50%; width:600px; margin:0 0 0 -300px;}
+#mainSlide .msSlide02 .textArea .msTit span {font-size:55px; display:inline-block; padding:0 10px;}
+#mainSlide .msSlide02 .textArea .msTit strong {font-size:55px;}
+#mainSlide .msSlide02 .textArea .msTxt p {font-size:24px; padding:0 0 0 10px;}
+#mainSlide .msSlide02 .textArea .msTit u {font-size:55px; transform-origin:17px 30px;}
+#mainSlide .msSlide02 .bgTxt {left:0; top:504px; width:100%; text-align:center;}
+#mainSlide .msSlide02 .bgTxt img {width:600px;}
+#mainSlide .msSlide02 .img01 {left:0;}
+#mainSlide .msSlide02 .img01 img {width:300px;}
+#mainSlide .msSlide02 .img02 {margin:0 -20% 0 0;}
+#mainSlide .msSlide02 .img02 img {width:460px;}
+
+#mainSlide .msSlide03 .textArea {top:120px; left:50%; width:600px; margin:0 0 0 -300px;}
+#mainSlide .msSlide03 .textArea .msTit span {font-size:55px; display:inline-block; padding:0 10px;}
+#mainSlide .msSlide03 .textArea .msTit strong {font-size:55px;}
+#mainSlide .msSlide03 .textArea .msTxt p {font-size:24px; padding:0 0 0 10px;}
+#mainSlide .msSlide03 .textArea .msTit u {font-size:55px; transform-origin:17px 30px;}
+#mainSlide .msSlide03 .bgTxt {left:0; top:504px; width:100%; text-align:center;}
+#mainSlide .msSlide03 .bgTxt img {width:600px;}
+#mainSlide .msSlide03 .img01 {left:0; right:auto; width:100%; text-align:center;}
+#mainSlide .msSlide03 .img01 img {width:700px; margin:0 0 0 44px;}
+
+#mainSlide .msSlide04 .textArea {top:120px; left:50%; margin:0 0 0 -200px;}
+#mainSlide .msSlide04 .textArea .msTit span.txtImg {display:none;}
+#mainSlide .msSlide04 .bgTxt {left:0; top:504px; width:100%; text-align:center;}
+#mainSlide .msSlide04 .bgTxt img {width:600px;}
+#mainSlide .msSlide04 .img01 {left:50%; bottom:120px; width:400px; margin:0 0 0 -200px;}
+#mainSlide .msSlide04 .img01 ul li.one img {width:293px;}
+#mainSlide .msSlide04 .img01 ul li.model  {left:228px; bottom:16px;}
+#mainSlide .msSlide04 .img01 ul li.model img {width:160px;}
+
+
+
+/* sector01 */
+#sector01 .mainerImg img {width:480px; margin:0;}
+#sector01 .no1Txt {left:0; bottom:auto; top:420px; width:100%; margin:0; text-align:center;}
+#sector01 .no1Txt img {width:420px; padding:0;}
+#sector01 .goLink {bottom:auto; top:650px; margin:0 0 0 72px;}
+#sector01 .InfoArea {position:relative; left:0; top:0; width:396px; margin:50px auto 0;}
+#sector01 .InfoArea .tArea {padding:0 0 60px 0;}
+#sector01 .InfoArea .tArea span {font-size:45px; margin:0 0 0 -160%;}
+#sector01 .InfoArea .tArea span strong {font-size:47px;}
+#sector01 .InfoArea .gArea ul {width:400px;}
+#sector01 .InfoArea .gArea ul li:nth-child(2) .gBar {width:236px;}
+#sector01 .InfoArea .gArea ul li:nth-child(3) .gBar {width:206px;}
+#sector01 .InfoArea .gArea ul li:nth-child(4) .gBar {width:182px;}
+
+/* sector02 */
+#sector02 .seTit {font-size:52px; margin:100px 0 20px 0;}
+#sector02 .seTit strong {font-size:52px;}
+#sector02 .seTit u {font-size:74px; transform-origin:22px 47px;}
+#sector02 .seTxt {font-size:26px;}
+#sector02 .seTxt strong {font-size:26px;}
+#sector02 .changeSlide {width:280px; height:50px;}
+#sector02 .changeSlide span {font-size:20px; line-height:50px; background-position:30px 50%; padding:0 0 0 70px;}
+#sector02 .changeSlide strong {font-size:20px;}
+#sector02 .changeSlide u {font-size:24px;}
+
+/* sector03 */
+#sector03 .layoutBox {padding:120px 0 0 0;}
+#sector03 .movie {width:auto; margin:0 40px;}
+#sector03 .movie .smartTt {top:auto; bottom:95px;}
+#sector03 .movie .movieSubject {font-size:30px; margin:70px 0 0 30%;}
+#sector03 .movie .movieSubject strong {font-size:30px;}
+
+#sector03 .smartLookTit {position:relative; left:0; bottom:auto; top:0; padding:0 0 60px 45px; margin:56px 0 0 -50%; background:url('');}
+#sector03 .smartLookTit span {font-size:68px;}
+#sector03 .smartLookTit span u {font-size:68px;}
+
+#sector03 .smartStyle {position:relative; left:0; bottom:auto; top:0; margin:0;}
+#sector03 .smartStyle .img {width:100%; text-align:center;}
+#sector03 .smartStyle .boyStyle {left:50%; top:220px; margin:0 0 0 -200px;}
+#sector03 .smartStyle .girlStyle {left:50%; right:auto; top:147px; margin:0 0 0 114px;}
+
+/* sector04 */
+#sector04 .layoutBox {padding:100px 0 80px 0;}
+#sector04 .seTit {font-size:52px;}
+#sector04 .seTit strong {font-size:52px;}
+#sector04 .seTit u {font-size:74px; transform-origin:22px 47px;}
+#sector04 .seList {width:auto; margin:0;}
+#sector04 .seList ul li {width:48%;}
+
+
+}
+
+
+
+
+
+
+/***************** media **************/
+@media all and (max-width:840px){
+
+/* header */
+header #navi .hInbox .menu .box {padding:0 12px;}
+header #tophead .lang {left:60px;}
+header #tophead .lang ul li a {padding:4px 10px;}
+
+/* sector05 */
+#sector05 .searchSchool {width:auto; margin:0 40px;}
+#sector05 .searchSchool .adTxt {left:58px;}
+#sector05 .searchSchool .sSearch {padding:0 100px 0 0;}
+#sector05 .searchSchool .sSearch input {font-size:38px; padding:0 0 0 55px; height:100px; line-height:100px;}
+#sector05 .searchSchool .sSearch a {width:100px; height:100px;}
+#sector05 .searchSchool .sSearch a span {padding:28px 0 0 0;}
+
+
+}
+
+
+/***************** media **************/
+@media all and (max-width:800px){
+
+/* sector02 */
+#sector02 #mainLookbook {width:294px;}
+#sector02 #mainLookbook .slick-slide {margin-left:0; margin-right:0;}
+#sector02 #mainLookbook02 {width:294px;}
+#sector02 #mainLookbook02 .slick-slide {margin-left:0; margin-right:0;}
+
+/* main slide */
+#mainSlide .msSlide03 .img01 {bottom:135px;}
+#mainSlide .msSlide03 .img01 img {width:600px;}
+
+
+}
+
+
+
+/***************** media mobile **************/
+@media all and (max-width:640px){
+
+.layoutBox {margin:0 12px;}
+
+/* header */
+header #tophead {height:56px;}
+header #tophead h1 {top:12px; margin:0 0 0 -65px;}
+header #tophead h1 a {width:130px; height:33px; background-size:130px 33px;}
+header.naviOn #tophead h1 a {background-size:130px 33px;}
+
+header #tophead .naviMenu {top:11px;}
+header #tophead .naviMenu span {font-size:11px; padding:3px 3px 3px 5px; line-height:1.1;}
+
+header #tophead .lang {left:46px; top:20px;}
+header #tophead .lang ul li a {font-size:12px; padding:2px 5px;}
+
+header #tophead .util {top:13px; padding:2px 10px 0 0;}
+header #tophead .util .mUtil a {font-size:13px; line-height:26px; background-size:8px 7px; padding:0 12px;}
+header #tophead .util ul {top:-7px; width:140px; padding:5px 0; background:#3650ab;}
+header #tophead .util ul li a {font-size:13px; line-height:30px;}
+
+header #navi {top:-56px;}
+header #navi .hOutbox {padding:65px 0 0 0; margin:0 12px;}
+/*
+header #navi .hInbox .menu {width:48%; margin:0 2% 2% 0;}
+header #navi .hInbox .menu .box .mtit {font-size:14px; padding:20px 0 14px 0;}
+header #navi .hInbox .menu .box .mtxt {padding:0 0 14px 0;}
+header #navi .hInbox .menu .box .mtxt span {font-size:11px;}
+header #navi .hInbox .menu .box .sub {padding:14px 0 25px 0;}
+header #navi .hInbox .menu .box .sub ul li a {font-size:11px; padding:3px 0 3px 10px;}
+header #navi .hInbox .depthTitle {font-size:15px; padding:20px 0 14px 0;}
+*/
+
+header #navi .hInbox {margin:10px 10px 0;}
+header #navi .hInbox .menu {width:100%; border:0; margin:0;}
+header #navi .hInbox .menu:nth-child(1) {background:none;}
+header #navi .hInbox .menu:nth-child(2) {background:none;}
+body.hoverOk header #navi .hInbox .menu:hover {background:none;}
+body.hoverOk header #navi .hInbox .menu:hover:nth-child(2) {background:none;}
+
+header #navi .hInbox .menu .box .mtit {padding:14px 0 8px; background:url('');}
+header #navi .hInbox .menu .box .mtit a {font-size:20px; padding:0 22px 0 0; background:url('../images/bg/bg_navi_m_down.png') right 50% no-repeat; background-size:7px 4px;}
+header #navi .hInbox .menu .box .mtit a.on {background:url('../images/bg/bg_navi_m_up.png') right 50% no-repeat; background-size:7px 4px;}
+header #navi .hInbox .menu .box .sub {height:0; padding:6px 0; overflow:hidden;}
+
+header #navi .hInbox .depthTitle {padding:14px 11px;}
+header #navi .hInbox .depthTitle a {font-size:20px; padding:0 22px 0 0; background:url('../images/bg/bg_navi_m_down.png') right 50% no-repeat; background-size:7px 4px;}
+header #navi .hInbox .depthTitle a.on {background:url('../images/bg/bg_navi_m_up.png') right 50% no-repeat; background-size:7px 4px;}
+
+header #navi .hInbox .menu:nth-child(8) {display:none;}
+header #navi .hInbox .menu:nth-child(8) .box .mtit {padding:6px 0; background:url('../images/bg/bg_navi_m_blet.png') left 50% no-repeat; background-size:4px;}
+header #navi .hInbox .menu:nth-child(8) .box .mtit a {font-size:15px; padding:0 18px 0 12px; background-position:right 50%;}
+header #navi .hInbox .menu:nth-child(8) .box .sub {margin:0 0 0 15px;}
+header #navi .hInbox .menu:nth-child(9) {display:none;}
+header #navi .hInbox .menu:nth-child(9) .box .mtit {padding:6px 0; background:url('../images/bg/bg_navi_m_blet.png') left 50% no-repeat; background-size:4px;}
+header #navi .hInbox .menu:nth-child(9) .box .mtit a {font-size:15px; padding:0 18px 0 12px; background-position:right 50%;}
+header #navi .hInbox .menu:nth-child(9) .box .sub {margin:0 0 0 15px;}
+
+
+header #navi .mSns {height:100px;}
+header #navi .mSns ul {padding:35px 0 0 0;}
+header #navi .mSns ul li a {padding:0 6px;}
+header #navi .mSns ul li a img {width:34px;}
+
+header .naviClose {top:9px; left:0;}
+header .naviClose img {width:38px;}
+
+
+
+
+
+/* main slide */
+#mainSlide {height:680px;}
+
+#mainSlide .msSlide01 .textArea {top:90px; width:272px; margin:0 0 0 -136px;}
+#mainSlide .msSlide01 .textArea .msTit {padding:0 0 10px 0;}
+#mainSlide .msSlide01 .textArea .msTit span {font-size:44px; display:block; padding:0;}
+#mainSlide .msSlide01 .textArea .msTit strong {font-size:44px;}
+#mainSlide .msSlide01 .textArea .msTxt p {font-size:21px; padding:0;}
+#mainSlide .msSlide01 .textArea .msTit u {font-size:44px; transform-origin:13px 23px;}
+#mainSlide .msSlide01 .bgTxt {left:0; top:280px; width:100%; text-align:center;}
+#mainSlide .msSlide01 .bgTxt img {width:320px;}
+#mainSlide .msSlide01 .img01 {bottom:70px;}
+#mainSlide .msSlide01 .img01 img {width:400px; margin:0 0 0 -72px;}
+
+#mainSlide .msSlide02 .textArea {top:90px; width:272px; margin:0 0 0 -136px;}
+#mainSlide .msSlide02 .textArea .msTit {padding:0 0 10px 0;}
+#mainSlide .msSlide02 .textArea .msTit span {font-size:44px; display:block; padding:0;}
+#mainSlide .msSlide02 .textArea .msTit strong {font-size:44px;}
+#mainSlide .msSlide02 .textArea .msTxt p {font-size:21px; padding:0;}
+#mainSlide .msSlide02 .textArea .msTit u {font-size:44px; transform-origin:13px 23px;}
+#mainSlide .msSlide02 .bgTxt {left:0; top:402px; width:100%; text-align:center;}
+#mainSlide .msSlide02 .bgTxt img {position:absolute; left:50%; top:0; width:400px; margin:0 0 0 -200px;}
+#mainSlide .msSlide02 .img01 img {width:180px;}
+#mainSlide .msSlide02 .img02 {margin:0 -38% 0 0;}
+#mainSlide .msSlide02 .img02 img {width:255px;}
+
+#mainSlide .msSlide03 {background-size:auto 675px;}
+#mainSlide .msSlide03 .textArea {top:90px; width:272px; margin:0 0 0 -136px;}
+#mainSlide .msSlide03 .textArea .msTit {padding:0 0 10px 0;}
+#mainSlide .msSlide03 .textArea .msTit span {font-size:44px; display:block; padding:0;}
+#mainSlide .msSlide03 .textArea .msTit strong {font-size:44px;}
+#mainSlide .msSlide03 .textArea .msTxt p {font-size:21px; padding:0;}
+#mainSlide .msSlide03 .textArea .msTit u {font-size:44px; transform-origin:13px 23px;}
+#mainSlide .msSlide03 .bgTxt {left:0; top:402px; width:100%; text-align:center;}
+#mainSlide .msSlide03 .bgTxt img {position:absolute; left:50%; top:0; width:400px; margin:0 0 0 -200px;}
+#mainSlide .msSlide03 .img01 {bottom:100px;}
+#mainSlide .msSlide03 .img01 img {width:386px; margin:0 0 0 -13px;}
+
+#mainSlide .msSlide04 .textArea {top:90px; width:286px; margin:0 0 0 -143px;}
+#mainSlide .msSlide04 .textArea .msTit span img {width:100%;}
+#mainSlide .msSlide04 .bgTxt {left:0; top:402px; width:100%; text-align:center;}
+#mainSlide .msSlide04 .bgTxt img {position:absolute; left:50%; top:0; width:400px; margin:0 0 0 -200px;}
+#mainSlide .msSlide04 .img01 {left:50%; bottom:60px; width:292px; margin:0 0 0 -146px;}
+#mainSlide .msSlide04 .img01 ul li.one img {width:220px;}
+#mainSlide .msSlide04 .img01 ul li.model  {left:170px; bottom:11px;}
+#mainSlide .msSlide04 .img01 ul li.model img {width:120px;}
+
+#mainSlide .slick-dots {right:12px; top:28%; width:12px;}
+#mainSlide .slick-dots li {margin:10px 0;width:12px; height:12px;border-width:2px;}
+#mainSlide .slick-dots li.slick-active {}
+
+
+
+/* sector01 */
+#sector01 .layoutBox {padding:56px 0 40px 0; margin:0;}
+#sector01 .mainerImg img {width:310px; margin:0 -30px 0 0;}
+#sector01 .no1Txt {top:245px;}
+#sector01 .no1Txt img {width:300px;}
+
+#sector01 .goLink {top:424px; margin:0 0 0 54px;}
+#sector01 .goLink .ico img {width:40px;}
+#sector01 .goLink span {font-size:13px; line-height:1.5; padding:2px 0 2px 45px;}
+#sector01 .goLink span u {font-size:13px;}
+
+#sector01 .InfoArea {width:275px; margin:36px auto 0;}
+#sector01 .InfoArea .tArea {padding:0 0 46px 0;}
+#sector01 .InfoArea .tArea span {font-size:34px; letter-spacing:-3px;}
+#sector01 .InfoArea .tArea span strong {font-size:36px;}
+
+#sector01 .InfoArea .gArea ul {width:320px;}
+#sector01 .InfoArea .gArea ul li {padding:0 0 16px 0;}
+#sector01 .InfoArea .gArea ul li .gBar {padding:0 34px 0 0;}
+#sector01 .InfoArea .gArea ul li .gBar .bar {height:8px;}
+#sector01 .InfoArea .gArea ul li .gBar .num u {font-size:13px;}
+#sector01 .InfoArea .gArea ul li:nth-child(2) .gBar {width:136px;}
+#sector01 .InfoArea .gArea ul li:nth-child(3) .gBar {width:106px;}
+#sector01 .InfoArea .gArea ul li:nth-child(4) .gBar {width:82px;}
+#sector01 .InfoArea .gArea ul li:nth-child(1) .num {top:-11px;}
+#sector01 .InfoArea .gArea ul li:nth-child(1) .num u {font-size:29px;}
+#sector01 .InfoArea .gArea ul li:nth-child(1) .gBar {padding:0 112px 0 0;}
+#sector01 .InfoArea .gArea ul li:nth-child(1) .gBar .num span {top:-13px; font-size:11px;}
+#sector01 .InfoArea .gArea ul li .gCompany {font-size:11px; padding:6px 0 0 0;}
+#sector01 .InfoArea .gArea ul li .gCompany span {font-size:11px;}
+#sector01 .InfoArea .gArea .noti {font-size:12px;}
+
+/* sector02 */
+#sector02 .seTit {font-size:36px; margin:70px 0 20px 0; padding:0 32px 0 0;}
+#sector02 .seTit strong {font-size:36px;}
+#sector02 .seTit u {top:-11px; font-size:46px; transform-origin:15px 33px;}
+#sector02 .seTxt {font-size:19px; letter-spacing:-1px; padding:0 0 14px 0;}
+#sector02 .seTxt strong {font-size:19px;}
+
+#sector02 .changeSlide {width:204px; height:38px; margin:0 auto 25px;}
+#sector02 .changeSlide span {font-size:13px; line-height:38px; background-position:15px 50%; background-size:14px 9px; padding:0 0 0 35px;}
+#sector02 .changeSlide strong {font-size:13px;}
+#sector02 .changeSlide u {font-size:16px; margin:0;}
+#sector02 .changeSlide i {display:inline-block; font-size:13px;}
+
+#sector02 #mainLookbook {padding:0 0 86px 0;}
+#sector02 #mainLookbook .slick-slide .img img {width:170px;}
+#sector02 #mainLookbook .slick-slide .ico {padding:4px 0 4px 0;}
+#sector02 #mainLookbook .slick-slide .ico img {height:25px;}
+#sector02 #mainLookbook .slick-slide .txt {font-size:12px; padding:0 0 20px 0;}
+#sector02 #mainLookbook .slick-slide .img .more {width:40px; height:40px; opacity:0; margin:-80px 0 0 -20px; background-size:40px;}
+#sector02 #mainLookbook02 {padding:0 0 86px 0;}
+#sector02 #mainLookbook02 .slick-slide .img img {width:170px;}
+#sector02 #mainLookbook02 .slick-slide .ico {padding:10px 0 4px 0;}
+#sector02 #mainLookbook02 .slick-slide .ico img {height:25px;}
+#sector02 #mainLookbook02 .slick-slide .txt {font-size:12px; padding:0 0 20px 0;}
+#sector02 #mainLookbook02 .slick-slide .img .more {width:40px; height:40px; opacity:0; margin:-60px 0 0 -40px; background-size:40px;}
+
+#sector02 .slick-prev {width:40px; height:40px; background-size:36px; left:-20px; top:170px;}
+#sector02 .slick-next {width:40px; height:40px; background-size:36px; right:-20px; top:170px;}
+#sector02 .slick-dots {bottom:50px;}
+#sector02 .slick-dots li {width:8px; height:8px; margin:0 7px; background-size:8px;}
+#sector02 .slick-dots li.slick-active {background-size:8px;}
+
+/* sector03 */
+#sector03 .layoutBox {padding:50px 0 0 0;}
+#sector03 .movie {margin:0 20px;}
+#sector03 .movie .smartTt {top:auto; bottom:75px; right:-18px;}
+#sector03 .movie .movieSubject {font-size:22px; margin:60px 0 0 20%; padding:0 0 0 16px; letter-spacing:0;}
+#sector03 .movie .movieSubject strong {font-size:22px;}
+#sector03 .movie .cover p {margin:-31px 0 0 -31px;}
+#sector03 .movie .cover p img {width:62px;}
+#sector03 .movie .smartTt img {width:290px;}
+
+#sector03 .smartLookTit {padding:0 0 35px 45px; margin:65px 0 0 -55%;}
+#sector03 .smartLookTit span {font-size:47px;}
+#sector03 .smartLookTit span u {font-size:47px;}
+
+#sector03 .smartStyle .img img {width:260px; padding:0 0 0 10px;}
+#sector03 .smartStyle .boyStyle {width:86px; height:86px; top:130px; margin:0 0 0 -148px;}
+#sector03 .smartStyle .girlStyle {width:86px; height:86px; top:88px; margin:0 0 0 80px;}
+
+#sector03 .smartStyle .ico {padding:18px 0 0 0;}
+#sector03 .smartStyle .ico img {width:15px;}
+#sector03 .smartStyle .ico span {font-size:12px; padding:6px 0 0 0;}
+
+/* sector04 */
+#sector04 .layoutBox {padding:68px 0 80px 0;}
+#sector04 .seTit {font-size:36px; margin:0 0 40px 0; padding:0 32px 0 0;}
+#sector04 .seTit strong {font-size:36px;}
+#sector04 .seTit u {top:-11px; font-size:46px; transform-origin:15px 33px;}
+#sector04 .seList ul li {height:188px;}
+#sector04 .seList ul li .tit strong {font-size:22px; text-shadow:none; font-weight:600; letter-spacing:2px;}
+#sector04 .seList ul li .tit span {font-size:22px; font-weight:500; letter-spacing:2px;}
+#sector04 .seList ul li .txt {font-size:11px;}
+
+#sector04 .seList ul li:nth-child(1) .tit {left:15px; top:15px;}
+#sector04 .seList ul li:nth-child(1) .txt {left:15px; top:75px;}
+#sector04 .seList ul li:nth-child(1) .img {right:10px;}
+#sector04 .seList ul li:nth-child(1) .img img {width:120px;}
+
+#sector04 .seList ul li:nth-child(2) .tit {left:60px; top:18px;}
+#sector04 .seList ul li:nth-child(2) .txt {left:15px; bottom:22px;}
+#sector04 .seList ul li:nth-child(2) .img {right:7px;}
+#sector04 .seList ul li:nth-child(2) .img img {width:92px;}
+
+#sector04 .seList ul li:nth-child(3) .tit {left:20px; top:42px;}
+#sector04 .seList ul li:nth-child(3) .tit strong {font-size:35px;}
+#sector04 .seList ul li:nth-child(3) .tit span {font-size:35px;}
+#sector04 .seList ul li:nth-child(3) .txt {left:20px; bottom:50px;}
+#sector04 .seList ul li:nth-child(3) .img {right:0;}
+#sector04 .seList ul li:nth-child(3) .img img {width:98px;}
+
+#sector04 .seList ul li:nth-child(4) .tit {left:15px; top:15px;}
+#sector04 .seList ul li:nth-child(4) .txt {left:15px; top:75px;}
+#sector04 .seList ul li:nth-child(4) .img img {width:80px;}
+
+#sector04 .seList ul li:nth-child(5) .tit {left:60px; top:18px;}
+#sector04 .seList ul li:nth-child(5) .txt {left:15px; bottom:20px;}
+#sector04 .seList ul li:nth-child(5) .img img {width:112px;}
+
+#sector04 .seList ul li:nth-child(6) .tit {left:15px; top:15px;}
+#sector04 .seList ul li:nth-child(6) .txt {left:15px; top:75px;}
+#sector04 .seList ul li:nth-child(6) .img {right:5px;}
+#sector04 .seList ul li:nth-child(6) .img img {width:72px;}
+#sector04 .seList ul li:nth-child(6) .sns {left:15px; bottom:20px; width:70px;}
+#sector04 .seList ul li:nth-child(6) .sns ul li {margin:6px 3px 0 0;}
+#sector04 .seList ul li:nth-child(6) .sns ul li img {width:28px;}
+
+
+/* sector05 */
+#sector05 {padding:48px 0 0 0;}
+#sector05 .searchSchool {margin:0 20px;}
+#sector05 .searchSchool .adTxt {left:30px; top:-24px; font-size:13px;}
+#sector05 .searchSchool .sSearch {padding:0 72px 0 0;}
+#sector05 .searchSchool .sSearch input {font-size:20px; padding:0 0 0 30px; height:70px; line-height:70px;}
+#sector05 .searchSchool .sSearch a {width:70px; height:70px;}
+#sector05 .searchSchool .sSearch a span {padding:22px 0 0 0;}
+#sector05 .searchSchool .sSearch a span img {width:26px;}
+
+
+/* footer */
+footer {margin:50px 0 0 0; padding:42px 0 40px 0;}
+footer .fSns ul li {margin:0 6px;}
+footer .fSns ul li img {width:34px;}
+footer address p span {font-size:11px; padding:0 4px;}
+footer address p span.fin {display:block; padding:7px 0 0 0;}
+footer .copyRight {font-size:10px; padding:18px 0 0 0; letter-spacing:2px;}
+
+
+}
+
+
+
+
